@@ -8,8 +8,7 @@
     "license": "GNU GENERAL PUBLIC LICENSE",
     "autoload": {
         "psr-4": {
-            "ItJonction\\OptimizeImages\\": "src/",
-            "": "src/"
+            "ItJonction\\OptimizeImages\\": "src/"
         }
     },
     "authors": [
