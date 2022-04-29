@@ -1,8 +1,22 @@
 {
-    "autoload": {
-        "classmap": ["src/"]
-    },
+    "name": "it-jonction/optimize-images",
+    "description": "Easily optimize images using PHP",
+    "type": "project",
     "require-dev": {
         "phpunit/phpunit": "^9"
-    }
+    },
+    "license": "GNU GENERAL PUBLIC LICENSE",
+    "autoload": {
+        "psr-4": {
+            "ItJonction\\OptimizeImages\\": "src/",
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wayne Theisinger",
+            "email": "wayne@mowdirect.co.uk"
+        }
+    ],
+    "require": {}
 }
