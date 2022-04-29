@@ -2,6 +2,9 @@
     "name": "it-jonction/optimize-images",
     "description": "Easily optimize images using PHP",
     "type": "project",
+    "scripts": {
+        "test": "vendor/bin/phpunit --testdox tests"
+    },
     "require-dev": {
         "phpunit/phpunit": "^9"
     },
