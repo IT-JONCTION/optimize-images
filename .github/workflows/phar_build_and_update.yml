@@ -50,8 +50,8 @@ jobs:
     - name: Create phar
       run: bash ./build.sh
 
-    - name: Test self-update command
-      run: php ./n98-magerun2.phar self-update --unstable
+    # - name: Test self-update command
+    #   run: php ./n98-magerun2.phar self-update --unstable
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
