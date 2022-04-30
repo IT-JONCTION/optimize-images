@@ -3,7 +3,6 @@
     "algorithm": "SHA512",
     "datetime": "release-date",
     "files": [
-        "config.yaml",
         "src/bootstrap.php",
         "vendor/composer/installed.php"
     ],
